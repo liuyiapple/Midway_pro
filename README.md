@@ -1,6 +1,6 @@
-# my_midway_project
+# MidWay 项目
 
-## QuickStart
+
 
 <!-- add docs here for user -->
 
@@ -11,7 +11,7 @@ see [midway docs][midway] for more detail.
 ```bash
 $ npm i
 $ npm run dev
-$ open http://localhost:7001/
+$ open http://localhost:6001/ 
 ```
 
 ### Deploy
