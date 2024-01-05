@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div contenteditable="true" id="myDiv">请输入内容</div>
+
+    <script>
+      const myDiv = document.querySelector('#myDiv');
+      myDiv.addEventListener('input', event => {
+        console.log(event.target.innerHTML);
+      });
+    </script>
+  </body>
+</html>
